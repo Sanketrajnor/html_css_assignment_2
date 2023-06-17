@@ -1,0 +1,20 @@
+h2{
+    padding-top: 20px;
+    text-align: center;
+    color: darkmagenta;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    border: 2px dotted #000; /* Change #000 to the desired border color */
+    margin: 40px;
+    transition: border-color 0.3s ease; /* Adds a smooth transition effect */
+  }
+  
+  .gallery img:hover {
+    border-color: #f00; /* Change #f00 to the desired hover border color */
+  }
+  
